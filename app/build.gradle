@@ -9,7 +9,7 @@ android {
     defaultConfig {
         minSdk 28
         targetSdk 35
-        versionCode 18
+        versionCode 1
         versionName "0.1.0"
         multiDexEnabled false
         proguardFiles += 'proguard-rules.pro'
