@@ -27,7 +27,7 @@ jobs:
       - name: Set environments
         run: |
           {
-            echo "versionName=v$(grep versionName app/build.gradle | awk '{print $2}' | tr -d \")"
+            echo "versionName=$(grep versionName app/build.gradle | awk '{print $2}' | tr -d \")"
             echo "versionCode=$(grep versionCode app/build.gradle | awk '{print $2}')"
             echo "LINE_versionCode=$(grep HOOK_TARGET_VERSION app/build.gradle | awk '{print $4}' | tr -d \'\")"
             echo "commit=$(echo ${{ github.sha }} | cut -c-7)"
