@@ -1,16 +1,15 @@
-### 確認項目
+### Checklist
 
 <!--
-以下の項目を全て確認し、満たしている場合は
-[ ] を [x] に書き換えてください。
-該当部分以外は書き換えないでください。
+Review all the items below and change [ ] to [x] once satisfied.
+Do not edit anything other than the checkboxes.
 -->
 
-- [ ] <!-- Choice,multiple --> 動作確認済み
-- [ ] <!-- Choice,multiple --> 誤字脱字無し
+- [ ] <!-- Choice,multiple --> Verified working on device
+- [ ] <!-- Choice,multiple --> No typos
 
 ---
-### 説明
+### Description
 <!--
-プルリクエストの詳細を記述してください。
+Describe the details of your pull request.
 -->
