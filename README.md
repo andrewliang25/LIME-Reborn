@@ -10,21 +10,9 @@ This is an Xposed Module to clean [**LINE**](https://line.me).
 ## Usage
 In the LINE app, go to <kbd>Home</kbd> > <kbd>⚙</kbd> to open **Settings**, then open it from the **LIME** button in the top right. Root users can also configure it from the LI**M**E app. With clone apps and the like, it seems configuration is sometimes only possible from the LI**M**E side.
 
-<details><summary>View image</summary>
-
-<a href="#"><img src="https://github.com/Chipppppppppp/LIME/assets/78024852/2f344ce7-1329-4564-b500-1dd79e586ea9" width="400px" alt="Sample screenshot"></a>
-
-</details>
-
 You can also turn on a switch from the <kbd>⁝</kbd> menu in the top right of a chat screen to **read messages while keeping them unread**. (This switch can be removed in the settings.)
 
 Note: replying clears the unread status, so be careful.
-
-<details><summary>View image</summary>
-
-<a href="#"><img src="https://github.com/Chipppppppppp/LIME/assets/78024852/bd391a83-b041-4282-9eec-fe71b3b19aa0" width="400px" alt="Sample screenshot"></a>
-
-</details>
 
 ## Features
 
@@ -188,6 +176,10 @@ If you find a new bug or a fix, please [report it](https://github.com/andrewlian
 
 > [!NOTE]
 > If you understand Japanese, please write in Japanese.
+
+## Credits
+
+LIME was originally created by [@Chipppppppppp](https://github.com/Chipppppppppp). This repository is a fork of [Chipppppppppp/LIME](https://github.com/Chipppppppppp/LIME) — many thanks to the original author and all upstream contributors.
 
 ## Star History
 
