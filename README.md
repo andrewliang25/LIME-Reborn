@@ -1,6 +1,6 @@
 # <img src="app/src/main/ic_launcher-playstore.png" width="60px"> LIME: Ad-killer for LINE
 
-[![Latest Release](https://img.shields.io/github/v/release/Chipppppppppp/LIME?label=latest)](https://github.com/Chipppppppppp/LIME/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/andrewliang25/LIME-Reborn?label=latest)](https://github.com/andrewliang25/LIME-Reborn/releases/latest)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Overview
@@ -64,7 +64,7 @@ A variable named `data` is provided in advance, containing the following propert
 - `name`: the name of the communication
 - `value`: the communication content
 
-Note: `data` is an instance of [this class](https://github.com/Chipppppppppp/LIME/blob/master/app/src/main/java/io/github/chipppppppppp/lime/hooks/Communication.java), which you can inspect via "Log communication content".
+Note: `data` is an instance of [this class](https://github.com/andrewliang25/LIME-Reborn/blob/master/app/src/main/java/io/github/chipppppppppp/lime/hooks/Communication.java), which you can inspect via "Log communication content".
 
 The functions `getMember` and `setMember` are provided in advance to get and set member variables (using `.` may access a method rather than the member variable, so it is safer to use these functions).
 
@@ -95,7 +95,7 @@ LI**N**E
 - [Uptodown](https://line.jp.uptodown.com/android/versions)
 
 LI**M**E
-- [Release](https://github.com/Chipppppppppp/LIME/releases/latest)
+- [Release](https://github.com/andrewliang25/LIME-Reborn/releases/latest)
 
 ### Rooted devices (Magisk)
 
@@ -184,11 +184,11 @@ As described at <https://jesuscorona.hatenablog.com/entry/2019/02/10/010920>, no
 
 ## Reporting issues
 
-If you find a new bug or a fix, please [report it](https://github.com/Chipppppppppp/LIME/issues/new/choose).
+If you find a new bug or a fix, please [report it](https://github.com/andrewliang25/LIME-Reborn/issues/new/choose).
 
 > [!NOTE]
 > If you understand Japanese, please write in Japanese.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Chipppppppppp/LIME&type=Date)](https://star-history.com/#Chipppppppppp/LIME&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=andrewliang25/LIME-Reborn&type=Date)](https://star-history.com/#andrewliang25/LIME-Reborn&Date)
