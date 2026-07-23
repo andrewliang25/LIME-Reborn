@@ -1,0 +1,25 @@
+LIME-Reborn — licensing notice
+===============================
+
+This repository is a fork of LIME (https://github.com/Chipppppppppp/LIME).
+
+Original work
+-------------
+Copyright (c) 2024 Chippppp
+Licensed under the MIT License. The full text is preserved in LICENSE.MIT.
+All original source retains its MIT license and copyright notice.
+
+This fork's work
+----------------
+Copyright (c) 2026 Andrew Liang and contributors
+Modifications and new files added in this fork are licensed under the
+GNU General Public License, version 3 (GPLv3). The full text is in LICENSE.
+
+The project as a whole
+----------------------
+The MIT License is compatible with the GPL, so the combined/derivative work
+is distributed under the terms of the GPLv3 (see LICENSE). The MIT notice
+above and in LICENSE.MIT continues to apply to the original portions and must
+be retained.
+
+This notice is informational and is not legal advice.
