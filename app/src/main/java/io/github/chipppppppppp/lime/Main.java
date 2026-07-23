@@ -17,6 +17,7 @@ import io.github.chipppppppppp.lime.hooks.AutomaticBackup;
 import io.github.chipppppppppp.lime.hooks.BlockTracking;
 import io.github.chipppppppppp.lime.hooks.CheckHookTargetVersion;
 import io.github.chipppppppppp.lime.hooks.Constants;
+import io.github.chipppppppppp.lime.hooks.DiagnosticLogger;
 import io.github.chipppppppppp.lime.hooks.EmbedOptions;
 import io.github.chipppppppppp.lime.hooks.IHook;
 import io.github.chipppppppppp.lime.hooks.KeepUnread;
@@ -50,6 +51,7 @@ public class Main implements IXposedHookLoadPackage, IXposedHookInitPackageResou
     public static LimeOptions limeOptions = new LimeOptions();
 
     static final IHook[] hooks = {
+            new DiagnosticLogger(), // TEMPORARY: re-derivation build only — remove before release
             new OutputResponse(),
             new ModifyRequest(),
             new CheckHookTargetVersion(),
