@@ -1,7 +1,7 @@
 # <img src="app/src/main/ic_launcher-playstore.png" width="60px"> LIME: Ad-killer for LINE
 
 [![Latest Release](https://img.shields.io/github/v/release/andrewliang25/LIME-Reborn?label=latest)](https://github.com/andrewliang25/LIME-Reborn/releases/latest)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
 ## Overview
 

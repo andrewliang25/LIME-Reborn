@@ -15,3 +15,5 @@
 /.vscode/
 # KeyStore
 /app/release.jks
+# macOS
+.DS_Store
