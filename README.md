@@ -180,7 +180,3 @@ If you find a new bug or a fix, please [report it](https://github.com/andrewlian
 ## Credits
 
 LIME was originally created by [@Chipppppppppp](https://github.com/Chipppppppppp). This repository is a fork of [Chipppppppppp/LIME](https://github.com/Chipppppppppp/LIME) — many thanks to the original author and all upstream contributors.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=andrewliang25/LIME-Reborn&type=Date)](https://star-history.com/#andrewliang25/LIME-Reborn&Date)
