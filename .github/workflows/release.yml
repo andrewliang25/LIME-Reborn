@@ -95,12 +95,15 @@ jobs:
         with:
           subject-path: ${{ env.artifact }}
 
-      - name: Release
+      # Create as a DRAFT and upload the asset first — GitHub "immutable releases"
+      # forbids adding assets after a release is published, so it must be attached
+      # while the release is still a draft, then published in the next step.
+      - name: Create draft release
         uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ env.tag }}
           name: ${{ env.tag }}
-          draft: false
+          draft: true
           prerelease: ${{ env.prerelease }}
           make_latest: ${{ env.makeLatest }}
           generate_release_notes: true
@@ -116,3 +119,10 @@ jobs:
             ```
             gh attestation verify ${{ env.artifact }} --repo ${{ github.repository }}
             ```
+
+      # Publishing a draft that already has its asset attached is allowed under
+      # immutable releases; the release becomes immutable at this point.
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release edit "${{ env.tag }}" --draft=false --repo ${{ github.repository }}
