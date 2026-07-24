@@ -18,6 +18,8 @@ import io.github.chipppppppppp.lime.LimeOptions;
 
 public class SendMuteMessage implements IHook {
     private static boolean isHandlingHook = false;
+    private static int normalMessageId = 0;
+    private static int silentMessageId = 0;
 
     @Override
     public void hook(LimeOptions limeOptions, XC_LoadPackage.LoadPackageParam loadPackageParam) throws Throwable {
@@ -55,14 +57,19 @@ public class SendMuteMessage implements IHook {
                         int resourceId = (int) param.args[0];
                         Resources resources = (Resources) param.thisObject;
 
+                        if (normalMessageId == 0 || silentMessageId == 0) {
+                            normalMessageId = resources.getIdentifier("chathistory_send_normal_message", "string", Constants.PACKAGE_NAME);
+                            silentMessageId = resources.getIdentifier("chathistory_send_silent_message", "string", Constants.PACKAGE_NAME);
+                        }
+
                         try {
                             isHandlingHook = true;
 
-                            if (resourceId == 2132085513) {
-                                @SuppressLint("ResourceType") String replacement = resources.getString(2132085514);
+                            if (resourceId == normalMessageId && silentMessageId != 0) {
+                                @SuppressLint("ResourceType") String replacement = resources.getString(silentMessageId);
                                 param.setResult(replacement);
-                            } else if (resourceId == 2132085514) {
-                                @SuppressLint("ResourceType") String replacement = resources.getString(2132085513);
+                            } else if (resourceId == silentMessageId && normalMessageId != 0) {
+                                @SuppressLint("ResourceType") String replacement = resources.getString(normalMessageId);
                                 param.setResult(replacement);
                             }
                         } finally {

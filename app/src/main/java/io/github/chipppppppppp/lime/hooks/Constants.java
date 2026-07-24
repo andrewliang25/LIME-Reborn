@@ -20,6 +20,6 @@ public class Constants {
     static final HookTarget MARK_AS_READ_HOOK = new HookTarget("KO.d$d", "run");
     static final HookTarget ARCHIVE_HOOK = new HookTarget("tB.P", "invokeSuspend");
     static final HookTarget NOTIFICATION_READ_HOOK = new HookTarget("mh1.b", "invokeSuspend");
-    static final HookTarget REQUEST_HOOK = new HookTarget("org.apache.thrift.l", "b");
-    static final HookTarget RESPONSE_HOOK = new HookTarget("org.apache.thrift.l", "a");
+    static final HookTarget REQUEST_HOOK = new HookTarget("org.apache.thrift.o", "b");
+    static final HookTarget RESPONSE_HOOK = new HookTarget("org.apache.thrift.o", "a");
 }
